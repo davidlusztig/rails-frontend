@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-// _home.scss
+
+/* app/assets/stylesheets/application.scss */
+@import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
 
 @import 'pages';
 
