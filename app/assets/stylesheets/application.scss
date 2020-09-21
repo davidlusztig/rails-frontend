@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+// _home.scss
+
+@import 'pages';
+
+body {
+    font-family: Helvetica;
+    background: red;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
